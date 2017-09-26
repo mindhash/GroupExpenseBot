@@ -1,0 +1,9 @@
+paid - Expense type, amount followed by  member names / user names. T. Use @all to log entry for all members of group. e.g - /paid $10 @amol for parking ticket
+recvd - Amount received from member(s). Include Member name or user name (if available). Use @all to log entry for all members of group. Include source/reason of transfer. e.g. /recvd $10 from @Pat for parking ticket
+add - add member to group. Use user name or member name. The name needs to be consistent. e.g. - /add @kp @sand @pao will add all three members to group. This impacts use of @all in messages.
+remove - removes a member from group. Use /members command to know exact name of members. e.g. /remove @kp
+members - list all the members in group. requires confirmation
+balance - shows balance of all members
+mybalance - shows your balance
+settle - Settles accounts and resets to zero. requires confirmation
+
